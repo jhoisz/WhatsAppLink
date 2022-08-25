@@ -20,6 +20,16 @@ class _WppFormState extends State<WppForm> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('WhatsApp Link'),
+        actions: [
+          IconButton(
+              icon: const Icon(Icons.refresh),
+              onPressed: () {
+                setState(() {
+                  _linkNumber = null;
+                });
+                _numberController.clear();
+              })
+        ],
       ),
       body: Column(
         children: [
@@ -52,6 +62,9 @@ class _WppFormState extends State<WppForm> {
             ElevatedButton(
               onPressed: () {
                 Clipboard.setData(ClipboardData(text: _linkNumber));
+                setState(() {
+                  _linkNumber == null;
+                });
               },
               child: const Text('Copiar link'),
             )

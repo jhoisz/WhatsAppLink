@@ -1,17 +1,34 @@
-# wpplink
+<h1 align="center"> :link: WhatsApp Link  </h1>
 
-A new Flutter project.
+## :pencil2: Descrição
+Aplicação **mobile** desenvolvida para a monitoria da Alura. 
 
-## Getting Started
+## :iphone: Funcionalidade do projeto
+A aplicação recebe um número de celular e gera um link que redirecionada para o WhatsApp deste número.
 
-This project is a starting point for a Flutter application.
+<p align="center">
+  <img src="https://media.discordapp.net/attachments/962040838123319319/1012499409013059625/app.gif?width=262&height=467" alt= "Gif colorido da aplicação desenvolvida realizando a operação de geração de link de WhatsApp." />
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+## :hammer: Tecnologias usadas
+Neste projeto foram usadas as seguintes tecnologias:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+> Framework [Flutter](https://flutter.dev/)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# WhatsAppLink
+> Linguagem [Dart](https://dart.dev/)
+
+## :arrow_forward: Como executar
+Primeiro você deve [instalar flutter](https://docs.flutter.dev/get-started/install).
+
+Então, você pode clocar e entrar na pasta do projeto:
+
+```bash
+git clone https://github.com/jhoisz/WhatsAppLink
+cd WhatsAppLink
+```
+
+Agora, para testar, você pode usar um dispositivo conectado ao seu computador ou usar um emulador:
+
+```bash
+flutter run
+```

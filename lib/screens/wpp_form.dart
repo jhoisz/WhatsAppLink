@@ -62,9 +62,6 @@ class _WppFormState extends State<WppForm> {
             ElevatedButton(
               onPressed: () {
                 Clipboard.setData(ClipboardData(text: _linkNumber));
-                setState(() {
-                  _linkNumber == null;
-                });
               },
               child: const Text('Copiar link'),
             )
